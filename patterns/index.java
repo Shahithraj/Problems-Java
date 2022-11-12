@@ -92,3 +92,18 @@ for(int i=1;i<=N;i++) {
     ans = ans.substring(1,ans.length());
     space += " ";
 }
+		
+// 9.
+//     * 
+//    * * 
+//   * * * 
+//  * * * * 
+// * * * * * 
+  for(int space=0;space<N-i-1;space++) {
+   System.out.print(" ");
+    }
+for(int j=0;j<=i;j++) {
+  System.out.print("*"+ " ");
+}
+ System.out.println();
+}
